@@ -1,0 +1,54 @@
+/* stack-sans-notch-200 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Stack Sans Notch';
+  font-style: normal;
+  font-weight: 200;
+  src: url('../fonts/stack-sans-notch-v5-latin-200.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* stack-sans-notch-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Stack Sans Notch';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/stack-sans-notch-v5-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* stack-sans-notch-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Stack Sans Notch';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/stack-sans-notch-v5-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+
+html,body{
+    font-family: 'Stack Sans Notch', sans-serif;
+}
+
+.video {
+    width: 1000px;
+    max-width: 90%;
+    display: block;
+    margin: 0 auto 20px auto;
+    border-radius: 16px;
+    object-fit: cover;
+}
+.intro-text {
+    font-weight: 200;
+    font-size: 0.85rem;
+    max-width: 700px;
+    text-align: center;
+    margin-top: 2px;
+    line-height: 1.5;
+}
+.card-text {
+    font-weight: 200;
+    font-size: 0.85rem;
+    max-width: 700px;
+    text-align: left;
+    margin-top: 2px;
+    line-height: 1.5;
+}
